@@ -1,0 +1,26 @@
+body {
+	background-color: #efefef;
+}
+.list {
+	width: 510px;
+	height: 750px;
+	background-color: #fff;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+.photo {
+	padding-top: 50px;
+	text-align: center;
+}
+.block {
+	padding-left: 50px;
+	font-size: 17px;
+}
+h2 {
+	margin: 0;
+}
+.line {
+	width: 410px;
+	border-top: 1px solid gray;
+	margin-bottom: 25px;
+}
