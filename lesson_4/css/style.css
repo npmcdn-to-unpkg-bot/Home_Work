@@ -67,22 +67,22 @@ ul {
 	background-repeat: no-repeat;
 }
 .countries li:nth-child(1) a {
-	background-position-x: 3px;
+	background-position: 3px 0;
 }
 .countries li:nth-child(2) a {
-	background-position-x: -56px;
+	background-position: -56px 0;
 }
 .countries li:nth-child(3) a {
-	background-position-x: -112px;
+	background-position: -112px 0;
 }
 .countries li:nth-child(4) a {
-	background-position-x: -168px;
+	background-position: -168px 0;
 }
 .countries li:nth-child(5) a {
-	background-position-x: -212px;
+	background-position: -212px 0;
 }
 .countries li:nth-child(6) a {
-	background-position-x: -272px;
+	background-position: -272px 0;
 }
 
 .menu {
