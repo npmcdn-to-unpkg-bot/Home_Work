@@ -85,7 +85,14 @@ ul {
 	background-position: -272px 0;
 }
 
+.fon {
+	line-height: 0;
+	font-size: 0;
+	letter-spacing: -1px;
+}
+
 .menu {
+	position: relative;
 	background-color: #333333;
 	border-bottom: 2px solid #000;
 	box-shadow: 0 2px 5px rgba(0,0,0,1);
