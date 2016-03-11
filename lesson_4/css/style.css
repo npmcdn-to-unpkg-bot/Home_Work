@@ -66,22 +66,22 @@ ul {
 	background-image: url(../img/countres.png);
 	background-repeat: no-repeat;
 }
-.countries li:nth-child(1) a {
+.india a {
 	background-position: 3px 0;
 }
-.countries li:nth-child(2) a {
+.nepal a {
 	background-position: -56px 0;
 }
-.countries li:nth-child(3) a {
+.tibet a {
 	background-position: -112px 0;
 }
-.countries li:nth-child(4) a {
+.butane a {
 	background-position: -168px 0;
 }
-.countries li:nth-child(5) a {
+.sri_lanka a {
 	background-position: -212px 0;
 }
-.countries li:nth-child(6) a {
+.maldives a {
 	background-position: -272px 0;
 }
 
@@ -163,7 +163,7 @@ ul > li:hover > ul.submenu {
 }
 
 .box_right {
-	float: left;
+	float: right;
 	width: 198px;
 	padding-bottom: 1000px;
 	margin-bottom: -1000px;
