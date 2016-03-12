@@ -82,10 +82,25 @@ form h2 {
 
 .line {
 	margin: 25px auto;
-	width: 275px;
-	color: #8e8f8e;
-	background-image: url(../img/line.png);
-	background-position: 0 -2px;
+	color: #999999;
+}
+
+.line:before {
+	display: inline-block;
+	width: 120px;
+	margin: 0 5px 3px 0;
+	content: "";
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #000; 
+}
+
+.line:after {
+	display: inline-block;
+	width: 120px;
+	margin: 0 0 3px 5px;
+	content: "";
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #000; 
 }
 
 form .text input {
