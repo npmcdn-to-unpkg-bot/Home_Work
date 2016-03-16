@@ -237,14 +237,13 @@ header p {
 }
 
 .button_form {
-	margin-left: 316px;
+	margin-left: 328px;
 	width: 60px;
 }
 
 .button_form a {
 	display: block;
-
-	font-size: 14px;
+	font-size: 12px;
 	text-decoration: none;
 	font-style: italic;
 	color: #154467;
@@ -254,16 +253,20 @@ header p {
 .bus {
 	float: left;
 	width: 165px;
-	margin: 12px 0 0 14px;
+	margin: 12px 0 0 10px;
 	padding: 0px 10px 5px 15px;
 	border: 2px solid #c4c4c4;
 	border-radius: 20px;
 	box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
 }
 
-.table_row p select#size,
-.table_row p select#size_2 {
+#size, #size_2 {
 	width: 50px;
+}
+
+#radius {
+	width: 42px;
+	border: 2px solid #949494;
 }
 
 .bus .table_row p.season {
@@ -271,7 +274,7 @@ header p {
 }
 
 .bus .table_row p.season input {
-	margin: 0 3px 4px 0;
+	margin: 0 3px 2px 0;
 }
 
 .bus .table_row p.p_1 {
@@ -279,7 +282,7 @@ header p {
 }
 
 .bus h3 {
-	margin: 0 0 3px;
+	margin: 0 0 8px;
 	text-align: left;
 	font-size: 13px;
 	font-weight: bold;
@@ -292,7 +295,7 @@ header p {
 
 aside {
 	width: 180px;
-	margin-top: 16px;
+	margin-top: 19px;
 	font-family: "lucida Sans Regular", sans-serif;
 }
 
@@ -339,8 +342,7 @@ aside {
 }
 
 .mnu {
-	margin-left: 45px;
-	list-style-type: circle;
+	margin-left: 33px;
 	color: #465961;
 }
 
@@ -349,6 +351,11 @@ aside {
 	font-size: 13px;
 	color: #465961;
 	text-decoration: none;
+}
+
+.mnu li a:before {
+	content: url(../img/marker.png);
+	padding-right: 3px;
 }
 
 .mnu li a:hover {
@@ -385,7 +392,7 @@ aside {
 main {
 	float: left;
 	width: 522px;
-	margin: 15px 10px 0;
+	margin: 16px 10px 0;
 	padding: 13px 0 7px;
 	background: linear-gradient(#e5e7e8, #93a7b0);
 	border-radius: 5px;
