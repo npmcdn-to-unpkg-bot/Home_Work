@@ -287,11 +287,10 @@
 
 	.slider {
 		background-color: rgba(0,0,0,0);
+	}
 
-		.content {
-			width: 280px;
-			text-align: center;
-		}
+	.content {
+		width: 280px;
 	}
 
 	.content article {
@@ -300,7 +299,7 @@
 
 	.content article h1,
 	.content article h2 {
-		padding-left: 60px;
+		padding-left: 30px;
 	}
 	.iphone {
 		display: none;
