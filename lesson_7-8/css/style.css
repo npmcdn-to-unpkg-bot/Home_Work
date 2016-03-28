@@ -59,6 +59,10 @@ nav {
 	transition:  all .25s;
 }
 
+.menu_tab {
+	display: none;
+}
+
 .slider {
 	margin-top: 165px;
 	height: 400px;
@@ -151,11 +155,11 @@ nav {
 }
 
 .container__item:nth-child(2) h2 {
-	background-position: 10px -29px;
+	background-position: 10px -54px;
 }
 
 .container__item:nth-child(3) h2 {
-	background-position: 10px -64px;
+	background-position: 10px -116px;
 }
 
 .container__item p {
