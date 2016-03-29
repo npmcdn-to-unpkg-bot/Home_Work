@@ -1,4 +1,41 @@
+@media only screen and (max-width : 768px) {
+	
+	nav {
+		text-align: left;
+	}
 
+	.menu__item {
+		margin: 0 37px 0 0;
+	}
+
+	.slider {
+		margin-top: 70px;
+	}
+	.slider__item {
+		margin-left: 20px;
+	}
+	.slider__item h1 {
+		font-size: 48px;
+	}
+	.slider__item h2 {
+		font-size: 24px;
+	}
+	.slider__item p {
+		font-size: 16px;
+	}
+	.iphone {
+		margin-right: 25px;
+	}
+	.circle {
+		margin-top: 15px;
+	}
+	.about__item a {
+		margin-right: 0;
+	}
+	footer p {
+		padding-top: 0;
+	}
+}
 
 
 /* Extra Small Devices, Phones */
@@ -142,41 +179,3 @@
 	}
 
 
-@media only screen and (max-width : 768px) {
-	
-	nav {
-		text-align: left;
-	}
-
-	.menu__item {
-		margin: 0 37px 0 0;
-	}
-
-	.slider {
-		margin-top: 70px;
-	}
-	.slider__item {
-		margin-left: 20px;
-	}
-	.slider__item h1 {
-		font-size: 48px;
-	}
-	.slider__item h2 {
-		font-size: 24px;
-	}
-	.slider__item p {
-		font-size: 16px;
-	}
-	.iphone {
-		margin-right: 25px;
-	}
-	.circle {
-		margin-top: 15px;
-	}
-	.about__item a {
-		margin-right: 0;
-	}
-	footer p {
-		padding-top: 0;
-	}
-}
