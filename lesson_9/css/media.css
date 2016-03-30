@@ -74,6 +74,7 @@
 		background-color: rgba(54,41,62,0.9);
 		border-radius: 0 0 10px 10px;
 		border-top: none;
+		z-index: 1;
 	}
 	.menu_tab a {
 		padding: 0 6px;
