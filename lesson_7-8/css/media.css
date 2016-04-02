@@ -1,12 +1,13 @@
 
-@media only screen and (max-width : 768px) {
+@media only screen 
+and (max-width : 768px) {
 	
 	header {
 		height: 797px;
 	}
 
 	.top_line {
-		width: 720px;
+		max-width: 720px;
 	}
 
 	nav {
@@ -23,11 +24,7 @@
 	}
 
 	.content {
-		width: 720px;
-	}
-
-	.content article {
-		width: 310px;
+		max-width: 720px;
 	}
 
 	.content article h1 {
@@ -42,42 +39,25 @@
 		font-size: 16px;
 	}
 
-	.iphone {
-		margin-left: 135px;
+	.iphone img {
+		margin-right: 30px;
 	}
 
 	.circle {
-		width: 720px;
+		max-width: 720px;
 		margin-top: 36px;
 	}
 
-	.circle a {
-		padding-left: 540px;
-	}
-
 	.container {
-		width: 720px;
+		max-width: 720px;
 	}
 
-	.container__item {
-		width: 240px;
-	}
-
-	.container__item h2 {
+		.container__item h2 {
 		font-size: 24px;
 		padding-bottom: 11px;
 	}
 
-	.container__item a {
-		padding: 5px 0 0 184px;
-	}
-
-	.comments {
-		height: 724px;	
-	}
-
 	.starts {
-		width: 310px;
 		margin-left: 21px;
 	}
 
@@ -90,46 +70,27 @@
 		background-position: 257px 0;
 	}
 
-	.logos__1 {
-		width: 100%;
-	}
-
-	.updates {
-		width: 325px;
-	}
-
-	.categor__news {
-		width: 200px;
-		margin: 50px 0 0 60px;
-	}
-
-	.copyr {
-		margin-left: 0;
-	}
-
 	.categor__news h2 {
 		font-size: 24px;
 	}
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen 
+and (max-width : 480px) {
 
 	header {
-		height: 547px;
+		height: 650px;
 	}
 
 	.top_line {
-		width: 440px;
+    max-width: 440px;
 		text-align: center;
 	}
 
 	.logo {
-		text-align: center;
-	}
-
-	.logo a {
 		float: none;
+		text-align: center;
 	}
 
 	.menu {
@@ -139,15 +100,15 @@
 	nav {
 		float: none;
 		margin: 0;
-		position: relative;
 		text-align: center;
 	}
+
 	.menu_tab {
 		display: block;
-		width: 245px;
+		max-width: 245px;
 		margin: 0 auto;
-		position: relative;
 	}
+
 	.menu_tab li {
 		position: relative;
 		width: 100%;
@@ -162,6 +123,7 @@
 		border-radius: 0 0 10px 10px;
 		border-top: none;
 	}
+
 	.menu_tab a {
 		padding: 0 6px;
 		line-height: 42px;
@@ -169,6 +131,7 @@
 		color: #fff;
 		text-decoration: none;
 	}
+
 	.menu_tab a:hover {
 		border-bottom: 2px solid #edbfff;
 		transition: all .25s;
@@ -176,8 +139,8 @@
 
 	.menu_tab li:hover .sab_menu {
 		display: block;
-
 	}
+
 	.menu_tab li:hover {
 		background-color: rgba(54,41,62,0.9);
 		border-radius: 10px 10px 0 0;
@@ -187,6 +150,7 @@
 	.sub_menu__item {
 		border-bottom: 2px solid #523e5a;
 	}
+
 	.sub_menu__link {
 		display: block;
 		line-height: 42px;
@@ -194,21 +158,18 @@
 		color: #fff;
 		text-decoration: none;
 	}
+
 	.sub_menu__link:hover {
 		background-color: rgba(0,0,0,0.3);
 	}
 
 	.slider {
-		height: 240px;
+		min-height: 240px;
 		margin-top: 95px;
 	}
 
 	.content {
-		width: 440px;
-	}
-
-	.content article {
-		width: 230px;
+		max-width: 440px;
 	}
 
 	.content article h1 {
@@ -224,15 +185,17 @@
 	}
 
 	.iphone {
-		margin: -8px 0 0 20px;
+		width: 47%
 	}
 
 	.iphone img {
-		width: 185px;
+		width: 90%;
+		margin: -9px 10px 0 0;
 	}
 
 	.circle {
-		width: 440px;
+		max-width: 440px;
+		margin-top: 20px;
 		text-align: center;
 	}
 
@@ -241,11 +204,11 @@
 	}
 
 	.container {
-		width: 440px;
+		max-width: 440px;
 	}
 
 	.about {
-		height: 595px;
+		padding-top: 0;
 	}
 
 	.container__item {
@@ -254,12 +217,11 @@
 	}
 
 	.container__item a {
-		float: right;
-		padding: 10px 0 0 0;
+		padding-top: 10px;
 	}
 
 	.comments {
-		height: 1002px;
+		padding-top: 0;
 	}
 
 	.starts {
@@ -273,27 +235,35 @@
 
 	.updates {
 		width: 100%;
-		margin: 60px 0 0 0;
+		margin-top: 60px;
+		padding-right: 0;
 	}
 
 	.logos {
 		text-align: center;
 	}
+
 	.logos__1, .logos__3 {
 		display: none;
 	}
 
 	.logos__2 {
 		display: inline-block;
+		width: 100%;
 	}
 
 	.categor {
-		height: 665px;
+		padding-top: 0;
 	}
 
 	.categor__news {
 		width: 100%;
-		margin: 60px 0 0 0 ;
+		margin-top: 60px; ;
+	}
+
+	.copyr h2,
+	.copyr p {
+		padding-left: 20px;
 	}
 
 	.menu_bottom {
@@ -311,21 +281,20 @@
 	}
 }
 
-
-
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen 
+and (max-width : 320px) {
 
 	.top_line {
-		width: 320px;
+		max-width: 320px;
 	}
 	
 	.slider {
-		background-color: rgba(0,0,0,0);
+		background-color: transparent;
 	}
 
 	.content {
-		width: 280px;
+		max-width: 280px;
 	}
 
 	.content article {
@@ -336,6 +305,7 @@
 	.content article h2 {
 		padding-left: 30px;
 	}
+
 	.iphone {
 		display: none;
 	}
@@ -346,16 +316,8 @@
 		text-align: center;
 	}
 
-	.about {
-		height: 800px;
-	}
-
 	.container {
-		width: 280px;
-	}
-
-	.comments {
-		height: 1322px;
+		max-width: 280px;
 	}
 
 	.logos__1, .logos__2 {
@@ -364,6 +326,7 @@
 
 	.logos__3 {
 		display: inline-block;
+		width: 100%;
 	}
 
 	.categor {
@@ -374,5 +337,3 @@
 		display: none;
 	}
 }
-
-
