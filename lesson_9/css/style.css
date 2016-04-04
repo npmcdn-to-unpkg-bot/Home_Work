@@ -1,9 +1,4 @@
-﻿body {
-	position: relative;
-}
-
-header {
-	position: relative;
+﻿header {
 	min-height: 845px;
 	background: url(../img/header_bg.jpg) top center no-repeat;
 }
@@ -69,7 +64,6 @@ nav {
 .slider__item h1 {
 	margin: 0;
 	font-size: 60px;
-	
 	letter-spacing: -0.7px;
 }
 
@@ -93,12 +87,13 @@ nav {
 .iphone img {
 	width: 100%;
 	max-width: 274px;
+	max-height: 434px;
 	margin: -17px 73px 0 0;
 }
 
 .circle {
 	margin: 73px 170px 15px 0;
-    text-align: right;
+  text-align: right;
 }
 
 .about {
@@ -107,7 +102,6 @@ nav {
 	border-top: 1px solid #33253a;
 	border-bottom: 1px solid #33253a;
 }
-
 
 .about__item {
 	margin: 71px 0 61px; 
@@ -137,7 +131,7 @@ nav {
 .about__item p {
 	margin-left: 60px;
 	font-size: 16px;
-		line-height: 24px;
+	line-height: 24px;
 	font-family: "Open Sans Light", Arial, sans-serif;
 	color: #fff;
 }
