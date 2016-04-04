@@ -1,19 +1,11 @@
-﻿/*.clearfix:after {
-	content: '';
-	clear: both;
-	display: block;
-}
-*/
-body {
+﻿body {
 	position: relative;
 }
 
 header {
 	position: relative;
-	height: 845px;
-	background-image: url(../img/header_bg.jpg);
-	background-repeat: no-repeat;
-	background-position: top center;
+	min-height: 845px;
+	background: url(../img/header_bg.jpg) top center no-repeat;
 }
 
 .top_line {
@@ -63,16 +55,15 @@ nav {
 
 .slider {
 	margin-top: 155px;
-	height: 400px;
+	min-height: 400px;
 	background-color: rgba(0,0,0,0.2);
 }
-
 
 .slider__item {
 	padding-top: 65px;
 	color: #fff;
 	font-family: "League Gothic Regular", Arial, sans-serif;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 .slider__item h1 {
@@ -97,11 +88,16 @@ nav {
 
 .iphone {
 	text-align: right;
+}
+
+.iphone img {
+	width: 100%;
+	max-width: 274px;
 	margin: -17px 73px 0 0;
 }
 
 .circle {
-	margin: 73px 170px 0 0;
+	margin: 73px 170px 15px 0;
     text-align: right;
 }
 
@@ -123,21 +119,19 @@ nav {
 	color: #fff;
 	font-family: "League Gothic Regular", Arial, sans-serif;
 	text-transform: uppercase;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
-	background-image: url(../img/icon.png);
-	background-repeat: no-repeat;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 .item__1 {
-	background-position: 6px 13px;
+	background: url(../img/icon.png) 6px 13px no-repeat;
 }
 
 .item__2 {
-	background-position: 6px -46px;
+	background: url(../img/icon.png) 6px -46px no-repeat;
 }
 
 .item__3 {
-	background-position: 10px -108px;
+	background: url(../img/icon.png) 6px -108px no-repeat;
 }
 
 .about__item p {
@@ -157,11 +151,11 @@ nav {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #fff;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 .about__item a:hover {
-	text-shadow: 0px 0px 20px rgba(255,255,255,1);
+	text-shadow: 0 0 20px rgba(255,255,255,1);
 }
 
 .comments {
@@ -235,8 +229,7 @@ nav {
 	font-family: "Open Sans Light", Arial, sans-serif;
 	color: #454545;
 	line-height: 24px;
-	background-image: url(../img/icon_2.png);
-	background-repeat: no-repeat;
+	background: url(../img/icon_2.png) no-repeat;
 }
 
 .pos__1 {
@@ -288,7 +281,7 @@ li.pos__3 {
 
 .categor__news {
 	margin: 90px 14px 94px;
-	text-shadow: 0px 1px 1px rgba(255,255,255,1.5);
+	text-shadow: 0 1px 1px rgba(255,255,255,1.5);
 }
 
 .categor__news h2 {
@@ -345,7 +338,7 @@ footer {
 	color: #fff;
 	font-family: "League Gothic Regular", Arial, sans-serif;
 	text-transform: uppercase;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 	text-decoration: none;
 }
 
