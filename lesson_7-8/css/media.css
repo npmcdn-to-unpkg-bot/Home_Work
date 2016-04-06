@@ -1,339 +1,340 @@
+@media only screen
+and (max-width: 768px) {
 
-@media only screen 
-and (max-width : 768px) {
-	
-	header {
-		height: 797px;
-	}
+    header {
+        height: 797px;
+    }
 
-	.top_line {
-		max-width: 720px;
-	}
+    .top_line {
+        max-width: 720px;
+    }
 
-	nav {
-		float: left;
-		margin-top: 35px;
-	}
+    nav {
+        margin-top: 35px;
+        float: left;
+    }
 
-	.menu__item {
-		margin: 0 38px 0 0;
-	}
+    .menu__item {
+        margin: 0 38px 0 0;
+    }
 
-	.slider {
-		margin-top: 75px;
-	}
+    .slider {
+        margin-top: 75px;
+    }
 
-	.content {
-		max-width: 720px;
-	}
+    .content {
+        max-width: 720px;
+    }
 
-	.content article h1 {
-		font-size: 48px;
-	}
+    .content article h1 {
+        font-size: 48px;
+    }
 
-	.content article h2 {
-		font-size: 24px;
-	}
+    .content article h2 {
+        font-size: 24px;
+    }
 
-	.content article p {
-		font-size: 16px;
-	}
+    .content article p {
+        font-size: 16px;
+    }
 
-	.iphone img {
-		margin-right: 30px;
-	}
+    .iphone img {
+        margin-right: 30px;
+    }
 
-	.circle {
-		max-width: 720px;
-		margin-top: 36px;
-	}
+    .circle {
+        max-width: 720px;
+        margin-top: 36px;
+    }
 
-	.container {
-		max-width: 720px;
-	}
+    .container {
+        max-width: 720px;
+    }
 
-		.container__item h2 {
-		font-size: 24px;
-		padding-bottom: 11px;
-	}
+    .container__item h2 {
+        padding-bottom: 11px;
+        font-size: 24px;
+    }
 
-	.starts {
-		margin-left: 21px;
-	}
+    .starts {
+        margin-left: 21px;
+    }
 
-	.starts h2 {
-		font-size: 24px;
-		padding-right: 150px;
-	}
+    .starts h2 {
+        padding-right: 150px;
+        font-size: 24px;
+    }
 
-	.piptic {
-		background-position: 257px 0;
-	}
+    .piptic {
+        background-position: 257px 0;
+    }
 
-	.categor__news h2 {
-		font-size: 24px;
-	}
+    .categor__news h2 {
+        font-size: 24px;
+    }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen 
-and (max-width : 480px) {
+@media only screen
+and (max-width: 480px) {
 
-	header {
-		height: 650px;
-	}
+    header {
+        height: 650px;
+    }
 
-	.top_line {
-    max-width: 440px;
-		text-align: center;
-	}
+    .top_line {
+        max-width: 440px;
+        text-align: center;
+    }
 
-	.logo {
-		float: none;
-		text-align: center;
-	}
+    .logo {
+        float: none;
+        text-align: center;
+    }
 
-	.menu {
-		display: none;
-	}
+    .menu {
+        display: none;
+    }
 
-	nav {
-		float: none;
-		margin: 0;
-		text-align: center;
-	}
+    nav {
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
 
-	.menu_tab {
-		display: block;
-		max-width: 245px;
-		margin: 0 auto;
-	}
+    .menu_tab {
+        display: block;
+        max-width: 245px;
+        margin: 0 auto;
+    }
 
-	.menu_tab li {
-		position: relative;
-		width: 100%;
-	}
+    .menu_tab li {
+        position: relative;
+        width: 100%;
+    }
 
-	.sab_menu {
-		margin-top: 2px;
-		position: absolute;
-		display: none;
-		width: 100%;
-		background-color: rgba(54,41,62,0.9);
-		border-radius: 0 0 10px 10px;
-		border-top: none;
-	}
+    .sab_menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        margin-top: 2px;
+        border-top: 0;
+        border-radius: 0 0 10px 10px;
+        background-color: rgba(54, 41, 62, .9);
+    }
 
-	.menu_tab a {
-		padding: 0 6px;
-		line-height: 42px;
-		font-size: 24px;
-		color: #fff;
-		text-decoration: none;
-	}
+    .menu_tab a {
+        padding: 0 6px;
+        color: #fff;
+        font-size: 24px;
+        line-height: 42px;
+        text-decoration: none;
+    }
 
-	.menu_tab a:hover {
-		border-bottom: 2px solid #edbfff;
-		transition: all .25s;
-	}
+    .menu_tab a:hover {
+        transition: all .25s;
+        border-bottom: 2px solid #edbfff;
+    }
 
-	.menu_tab li:hover .sab_menu {
-		display: block;
-	}
+    .menu_tab li:hover .sab_menu {
+        display: block;
+    }
 
-	.menu_tab li:hover {
-		background-color: rgba(54,41,62,0.9);
-		border-radius: 10px 10px 0 0;
-		border-bottom: 2px solid #523e5a;
-	}
+    .menu_tab li:hover {
+        border-bottom: 2px solid #523e5a;
+        border-radius: 10px 10px 0 0;
+        background-color: rgba(54, 41, 62, .9);
+    }
 
-	.sub_menu__item {
-		border-bottom: 2px solid #523e5a;
-	}
+    .sub_menu__item {
+        border-bottom: 2px solid #523e5a;
+    }
 
-	.sub_menu__link {
-		display: block;
-		line-height: 42px;
-		font-size: 24px;
-		color: #fff;
-		text-decoration: none;
-	}
+    .sub_menu__link {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        line-height: 42px;
+        text-decoration: none;
+    }
 
-	.sub_menu__link:hover {
-		background-color: rgba(0,0,0,0.3);
-	}
+    .sub_menu__link:hover {
+        background-color: rgba(0, 0, 0, .3);
+    }
 
-	.slider {
-		min-height: 240px;
-		margin-top: 95px;
-	}
+    .slider {
+        min-height: 240px;
+        margin-top: 95px;
+    }
 
-	.content {
-		max-width: 440px;
-	}
+    .content {
+        max-width: 440px;
+    }
 
-	.content article h1 {
-		font-size: 36px;
-	}
+    .content article h1 {
+        font-size: 36px;
+    }
 
-	.content article h2 {
-		font-size: 18px;
-	}
+    .content article h2 {
+        font-size: 18px;
+    }
 
-	.content article p {
-		display: none;
-	}
+    .content article p {
+        display: none;
+    }
 
-	.iphone {
-		width: 47%
-	}
+    .iphone {
+        width: 47%;
+    }
 
-	.iphone img {
-		width: 90%;
-		margin: -9px 10px 0 0;
-	}
+    .iphone img {
+        width: 90%;
+        margin: -9px 10px 0 0;
+    }
 
-	.circle {
-		max-width: 440px;
-		margin-top: 20px;
-		text-align: center;
-	}
+    .circle {
+        max-width: 440px;
+        margin-top: 20px;
+        text-align: center;
+    }
 
-	.circle a {
-		padding: 0;
-	}
+    .circle a {
+        padding: 0;
+    }
 
-	.container {
-		max-width: 440px;
-	}
+    .container {
+        max-width: 440px;
+    }
 
-	.about {
-		padding-top: 0;
-	}
+    .about {
+        padding-top: 0;
+    }
 
-	.container__item {
-		width: 100%;
-		margin-top: 50px;
-	}
+    .container__item {
+        width: 100%;
+        margin-top: 50px;
+    }
 
-	.container__item a {
-		padding-top: 10px;
-	}
+    .container__item a {
+        padding-top: 10px;
+    }
 
-	.comments {
-		padding-top: 0;
-	}
+    .comments {
+        padding-top: 0;
+    }
 
-	.starts {
-		width: 100%;
-		margin: 65px 0 0 0 ;
-	}
+    .starts {
+        width: 100%;
+        margin: 65px 0 0;
+    }
 
-	.piptic {
-		background-position: 380px 0;
-	}
+    .piptic {
+        background-position: 380px 0;
+    }
 
-	.updates {
-		width: 100%;
-		margin-top: 60px;
-		padding-right: 0;
-	}
+    .updates {
+        width: 100%;
+        margin-top: 60px;
+        padding-right: 0;
+    }
 
-	.logos {
-		text-align: center;
-	}
+    .logos {
+        text-align: center;
+    }
 
-	.logos__1, .logos__3 {
-		display: none;
-	}
+    .logos__1,
+    .logos__3 {
+        display: none;
+    }
 
-	.logos__2 {
-		display: inline-block;
-		width: 100%;
-	}
+    .logos__2 {
+        display: inline-block;
+        width: 100%;
+    }
 
-	.categor {
-		padding-top: 0;
-	}
+    .categor {
+        padding-top: 0;
+    }
 
-	.categor__news {
-		width: 100%;
-		margin-top: 60px; ;
-	}
+    .categor__news {
+        width: 100%;
+        margin-top: 60px;
+    }
 
-	.copyr h2,
-	.copyr p {
-		padding-left: 20px;
-	}
+    .copyr h2,
+    .copyr p {
+        padding-left: 20px;
+    }
 
-	.menu_bottom {
-		float: none;
-	}
+    .menu_bottom {
+        float: none;
+    }
 
-	.menu_bottom__item {
-		margin-right: 17px;
-	}
+    .menu_bottom__item {
+        margin-right: 17px;
+    }
 
-	footer p {
-		float: none;
-		padding-top: 20px;
-		text-align: center;
-	}
+    footer p {
+        padding-top: 20px;
+        float: none;
+        text-align: center;
+    }
 }
 
 /* Custom, iPhone Retina */
-@media only screen 
-and (max-width : 320px) {
+@media only screen
+and (max-width: 320px) {
 
-	.top_line {
-		max-width: 320px;
-	}
-	
-	.slider {
-		background-color: transparent;
-	}
+    .top_line {
+        max-width: 320px;
+    }
 
-	.content {
-		max-width: 280px;
-	}
+    .slider {
+        background-color: transparent;
+    }
 
-	.content article {
-		width: 100%;
-	}
+    .content {
+        max-width: 280px;
+    }
 
-	.content article h1,
-	.content article h2 {
-		padding-left: 30px;
-	}
+    .content article {
+        width: 100%;
+    }
 
-	.iphone {
-		display: none;
-	}
+    .content article h1,
+    .content article h2 {
+        padding-left: 30px;
+    }
 
-	.circle {
-		width: 100%;
-		margin: 0;
-		text-align: center;
-	}
+    .iphone {
+        display: none;
+    }
 
-	.container {
-		max-width: 280px;
-	}
+    .circle {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
 
-	.logos__1, .logos__2 {
-		display: none;
-	}
+    .container {
+        max-width: 280px;
+    }
 
-	.logos__3 {
-		display: inline-block;
-		width: 100%;
-	}
+    .logos__1,
+    .logos__2 {
+        display: none;
+    }
 
-	.categor {
-		display: none;
-	}
+    .logos__3 {
+        display: inline-block;
+        width: 100%;
+    }
 
-	.menu_bottom {
-		display: none;
-	}
+    .categor {
+        display: none;
+    }
+
+    .menu_bottom {
+        display: none;
+    }
 }
