@@ -11,7 +11,7 @@ header {
     background-position: top center;
 }
 
-.top_line {
+.top-line {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
@@ -58,7 +58,7 @@ nav {
     border-bottom: 2px solid #edbfff;
 }
 
-.menu_tab {
+.menu-tab {
     display: none;
 }
 
@@ -247,7 +247,7 @@ nav {
     background: url('../img/piptic.png') no-repeat 372px 0;
 }
 
-.circle_2 {
+.circle-2 {
     position: absolute;
     bottom: -46px;
     width: 100%;
@@ -376,17 +376,17 @@ footer {
     background-image: url('../img/footer_bg.png');
 }
 
-.menu_bottom {
+.menu-bottom {
     padding-top: 45px;
     float: left;
 }
 
-.menu_bottom__item {
+.menu-bottom__item {
     display: inline-block;
     margin-right: 40px;
 }
 
-.menu_bottom__link {
+.menu-bottom__link {
     color: #fff;
     font-family: "League Gothic Regular", Arial, sans-serif;
     font-size: 20px;
