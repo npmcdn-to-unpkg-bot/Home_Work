@@ -1,7 +1,6 @@
-var body = document.getElementsByTagName('body')[0],
-    container = document.createElement('div');
+var container = document.createElement('div');
 container.className = 'container';
-body.appendChild(container);
+
 
 var tests = {
     questions: ['Вопрос №1',
@@ -14,18 +13,20 @@ var tests = {
               'Вариант ответа №3',
               'Вариант ответа №4'],
 
-    header: function () {
+    container: container,
+
+    addHeader: function () {
         var header = document.createElement('h3');
         header.innerHTML = 'Тест по программированию';
-        container.appendChild(header);
+        this.container.appendChild(header);
     },
 
-    list: function () {
+    addList: function () {
         var list = document.createElement('ol');
         for (var i = 0; i < this.questions.length; i++) {
             var listItem = document.createElement('li');
             list.appendChild(listItem);
-            container.appendChild(list);
+            this.container.appendChild(list);
 
             var question = document.createElement('p');
             question.innerHTML = this.questions[i];
@@ -49,16 +50,15 @@ var tests = {
         }
     },
 
-    button: function () {
+    addButton: function () {
         var button = document.createElement('button');
         button.className = 'btn btn-primary';
         button.innerHTML = 'Проверить мои результаты';
-        container.appendChild(button);
+        this.container.appendChild(button);
     }
 };
 
-tests.header();
-tests.list();
-tests.button();
-
-
+tests.addHeader();
+tests.addList();
+tests.addButton();
+document.body.appendChild(container);
