@@ -2,21 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>lesson js 9-10</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Home Work JS 9-10</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body>
 
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+            <span>Good Inc.</span>
+        </div>
+    </div>
+</header>
 
+<nav>
+    <div class="container">
+        <ul class="menu">
+            <li class="menu--item"><a href="#">Portfolio</a></li>
+            <li class="menu--item">
+                <a href="#">Services</a>
+                <ul class="submenu">
+                    <li class="submenu--item"><a href="#">submenu 1</a></li>
+                    <li class="submenu--item"><a href="#">submenu 2</a></li>
+                    <li class="submenu--item">
+                        <a href="#">submenu 3</a>
+                        <ul class="submenu2">
+                            <li class="submenu2--item"><a href="#">submenu 1</a></li>
+                            <li class="submenu2--item"><a href="#">submenu 2</a></li>
+                            <li class="submenu2--item"><a href="#">submenu 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu--item"><a href="#">submenu 4</a></li>
+                </ul>
+            </li>
+            <li class="menu--item"><a href="#">Staff</a></li>
+            <li class="menu--item">
+                <a href="#">Articles</a>
+                <ul class="submenu">
+                    <li class="submenu--item">
+                        <a href="#">submenu 1</a>
+                        <ul class="submenu2">
+                            <li class="submenu2--item"><a href="#">submenu 1</a></li>
+                            <li class="submenu2--item"><a href="#">submenu 2</a></li>
+                            <li class="submenu2--item"><a href="#">submenu 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu--item"><a href="#">submenu 2</a></li>
+                    <li class="submenu--item"><a href="#">submenu 3</a></li>
+                    <li class="submenu--item"><a href="#">submenu 4</a></li>
+                </ul>
+            </li>
+            <li class="menu--item"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="container">
+        <section class="hi owl-carousel">
+            <div class="hi--item item">
+                <a href="#"><img src="img/img1.jpg" alt="img"></a>
+                <h2>Taste & Sounds from Thailand</h2>
+                <p>We've made some small changes to BlazRobar.com...</p>
+            </div>
+            <div class="hi--item item">
+                <a href="#"><img src="img/img2.jpg" alt="img"></a>
+                <h2>BlazRobar.com is awesome for PSD</h2>
+                <p>We've made some small changes to BlazRobar.com...</p>
+            </div>
+            <div class="hi--item item">
+                <a href="#"><img src="img/img3.jpg" alt="img"></a>
+                <h2>Nice Looking Mountains Ah?</h2>
+                <p>We've made some small changes to BlazRobar.com...</p>
+            </div>
+        </section>
 
+        <form>
+            <label>
+                <span>Выберите один или несколько вариантов:</span>
+                <select id="variants" name="variants">
+                    <option value="variant1">Вариант 1</option>
+                    <option value="variant2">Вариант 2</option>
+                    <option value="variant3">Вариант 3</option>
+                    <option value="variant4">Вариант 4</option>
+                    <option value="variant5">Вариант 5</option>
+                </select>
+            </label>
+
+            <br><br><br>
+
+            <label for="check1">
+                Этот checkbox с помощью плагина «jQuery Form Styler»
+            </label>
+            <input type="checkbox" id="check1" checked>
+
+            <br><br><br>
+
+            <input type="checkbox" id="check2">
+            <label for="check2" class="css-checkbox">
+                Этот checkbox с помощью CSS
+            </label>
+
+        </form>
+    </div>
+</main>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="js/jquery.formstyler.js"></script>
 <script src="js/script.js"></script>
-
 
 </body>
 </html>

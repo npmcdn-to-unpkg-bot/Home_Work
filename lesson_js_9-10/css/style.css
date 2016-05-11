@@ -1,0 +1,168 @@
+body {
+    background-color: #ebebeb;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    background-color: #373737;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: #474747;
+}
+
+.menu--item {
+    position: relative;
+    padding: 0 25px;
+    border-right: 1px solid #767676;
+
+}
+
+.menu--item:last-child {
+    border-right: 0;
+}
+
+.menu--item:hover {
+    background-color: #373737;
+}
+
+.menu--item a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 150px;
+    background-color: #373737;
+    z-index: 2;
+}
+
+.submenu--item,
+.submenu2--item {
+    position: relative;
+    padding-left: 25px;
+    border-bottom: 1px solid #767676;
+}
+
+.submenu--item:hover,
+.submenu2--item:hover {
+    background-color: #f26c4f;
+}
+
+.submenu2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    background-color: #373737;
+    z-index: 2;
+}
+
+.hi {
+    margin: 35px 0;
+}
+
+.hi--item {
+    width: 300px;
+    height: 380px;
+    border: 1px solid #f26c4f;
+    background-color: #fff;
+}
+
+.hi--item img {
+    height: 200px;
+}
+
+.hi--item h2 {
+    margin: 25px;
+    color: #4f4f4f;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hi--item p {
+    margin: 25px;
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -50px;
+    width: 25px;
+    height: 26px;
+    background: url('../img/arrow.png') no-repeat;
+}
+
+.owl-next {
+    position: absolute;
+    right: -50px;
+    width: 25px;
+    height: 26px;
+    background: url('../img/arrow.png') no-repeat -35px;
+}
+
+form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #f26c4f;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.css-checkbox {
+    position: relative;
+}
+
+#check2 {
+    display: none;
+}
+
+.css-checkbox::after {
+    position: absolute;
+    top: 0;
+    right: -22px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #C3C3C3;
+    border-radius: 3px;
+    background: linear-gradient(#FFF, #E6E6E6);
+    content: '';
+}
+
+#check2:checked ~ .css-checkbox::after {
+    background: #f26c4f;
+}
