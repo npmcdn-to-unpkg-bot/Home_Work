@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work JS 13-14</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<script type="text/html" id="test">
+    <div class="wrapper">
+        <h1>Тест</h1>
+        <form>
+            <% for (var i = 0; i < questions.length; i++) { %>
+            <p><%= (i + 1) + '. ' + questions[i].title %></p>
+            <% for (var j = 0; j < questions[i].answers.length; j++) { %>
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="<%= questions[i].radioname %>" id="<%= questions[i].id[j] %>">
+                        <%= questions[i].answers[j] %>
+                    </label>
+                </li>
+            </ul>
+
+            <% } %>
+            <% } %>
+            <button>Проверить мои результаты</button>
+        </form>
+    </div>
+
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/tmpl.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
