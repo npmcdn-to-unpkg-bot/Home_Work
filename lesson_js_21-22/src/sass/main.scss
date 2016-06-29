@@ -1,0 +1,81 @@
+@import '../theme/reset';
+@import '../theme/fonts';
+@import '../theme/variables';
+
+.wrapper {
+    margin: 0 auto;
+    width: 50%;
+
+    h1 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    form {
+        p {
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                padding-bottom: 10px;
+
+                label {
+                    input {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            border: 1px solid $color1;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    }
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    margin: -150px 0 0 -250px;
+    padding: 20px;
+    background: $color2;
+    border: 1px solid $color3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px $color3, 0 0 10px $color3;
+
+    p {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .correct {
+        background: $color4;
+    }
+
+    .incorrect {
+        background: $color5;
+    }
+
+    button {
+        margin: 70px auto 0;
+        border: 0;
+        background: $color6;
+        color: $color2;
+        font-size: 12px;
+    }
+}
