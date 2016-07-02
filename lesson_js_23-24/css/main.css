@@ -1,0 +1,53 @@
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item-list {
+    padding: 0 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #fea;
+}
+
+li > div {
+    display: flex;
+}
+
+.item-delete,
+.item-edit,
+.item-save {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item-delete {
+    background-color: red;
+}
+
+.item-edit {
+    background-color: yellow;
+}
+
+.item-save {
+    background-color: green;
+}
+
+.controlls {
+    padding: 15px 0;
+    text-align: center;
+}
