@@ -1,0 +1,19 @@
+@import '../mobile';
+
+& {
+    padding-top: px(194);
+
+    .grid {
+        max-width: px(1496);
+        margin-top: px(66);
+
+        .grid-sizer {
+            width: px(472);
+        }
+
+        .grid-item {
+            width: px(472);
+            margin-bottom: px(40);
+        }
+    }
+}

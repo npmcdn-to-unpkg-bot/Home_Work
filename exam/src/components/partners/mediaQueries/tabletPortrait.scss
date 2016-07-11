@@ -1,0 +1,29 @@
+@import '../mobile';
+
+& {
+    padding-top: px(194);
+
+    h1 {
+        width: 100%;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+        align-content: center;
+        height: px(1060);
+        margin-top: px(66);
+
+        .item {
+            margin: 0 px(16) px(112);
+        }
+
+        .partner2,
+        .partner4 {
+            margin-bottom: 0;
+        }
+    }
+
+    a {
+        width: px(384);
+    }
+}
