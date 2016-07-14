@@ -40,6 +40,8 @@
             display: block;
             width: px(320);
             height: px(80);
+            transition: background-color .2s, color .2s;
+            border: px(4) solid $color3;
             border-radius: px(40);
             background-color: $color3;
             color: $color2;
@@ -48,6 +50,12 @@
             line-height: px(80);
             text-align: center;
             text-decoration: none;
+
+            &:hover {
+                border: px(4) solid $color3;
+                background-color: $color2;
+                color: $color3;
+            }
         }
     }
 }

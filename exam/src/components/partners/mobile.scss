@@ -114,6 +114,7 @@
         display: inline-block;
         width: px(560);
         height: px(80);
+        transition: background-color .2s, color .2s;
         border: px(4) solid $color3;
         border-radius: px(38);
         color: $color3;
@@ -122,5 +123,10 @@
         line-height: px(80);
         text-align: center;
         text-decoration: none;
+
+        &:hover {
+            background-color: $color3;
+            color: $color4;
+        }
     }
 }

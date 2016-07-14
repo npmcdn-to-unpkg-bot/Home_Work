@@ -99,6 +99,7 @@
     left: px(42);
     width: px(60);
     height: px(110);
+    transition: opacity .2s;
     background: url('../images/steps/arrowLeft.svg') no-repeat center;
     background-size: cover;
     content: '';
@@ -117,6 +118,7 @@
     right: px(42);
     width: px(60);
     height: px(110);
+    transition: opacity .2s;
     background: url('../images/steps/arrowRight.svg') no-repeat center;
     background-size: cover;
     content: '';

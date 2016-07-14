@@ -33,10 +33,15 @@
                 margin-bottom: px(16);
 
                 a {
+                    transition: color .2s;
                     color: $color3;
                     font-family: 'Roboto Light', Arial, sans-serif;
                     font-size: px(28);
                     text-decoration: none;
+                    
+                    &:hover {
+                        color: $color1;
+                    }
                 }
             }
         }
